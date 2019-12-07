@@ -288,9 +288,7 @@ function filterTrainees(event) {
   // filters trainees based on name, alternate names, and company
   filteredTrainees = trainees.filter(function (trainee) {
     let initialMatch = includesIgnCase(trainee.name_romanized, filterText)
-      || includesIgnCase(trainee.name_japanese, filterText)
-      || includesIgnCase(trainee.group_jpn, filterText)
-      || includesIgnCase(trainee.group_eng, filterText);
+      || includesIgnCase(trainee.name_japanese, filterText);
     // if alernates exists then check them as well
     let alternateMatch = false;
     let alternates = alternateRomanizations[trainee.name_romanized.toLowerCase()]
