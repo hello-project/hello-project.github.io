@@ -83,7 +83,8 @@ function newTrainee() {
     id: -1, // -1 denotes a blank trainee spot
     name_romanized: '&#8203;', // this is a blank character
     name_japanese: '&#8203;', // this is a blank character
-    group: '&#8203;', // this is a blank character
+    group_jpn: '&#8203;', // this is a blank character
+    group_eng: '&#8203;', // this is a blank character	  
     grade: 'no',
     image: 'emptyrank.png',
   };
