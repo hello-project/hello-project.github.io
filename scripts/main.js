@@ -219,12 +219,6 @@ function populateRanking() {
   }
 }
 
-const abbreviatedCompanies = {
-  "RAINBOW BRIDGE WORLD": "RBW",
-  "BLOCKBERRY CREATIVE": "BBC",
-  "INDIVIDUAL TRAINEE": "INDIVIDUAL",
-}
-
 function populateRankingEntry(trainee, currRank) {
   let eliminated = (showEliminated && trainee.eliminated) && "eliminated";
   let top11 = (showTop11 && trainee.top11) && "top11";
@@ -242,7 +236,7 @@ function populateRankingEntry(trainee, currRank) {
     </div>
     <div class="ranking__row-text">
       <div class="name"><strong>${isJapanese?trainee.name_japanese:trainee.name_romanized}</strong></div>
-      <div class="group"><strong>${isJapanese?trainee.group_jpn:trainee.group_eng}</strong></div>
+      <div class="group">${isJapanese?trainee.group_jpn:trainee.group_eng}</div>
     </div>
   </div>`;
   return rankingEntry;
