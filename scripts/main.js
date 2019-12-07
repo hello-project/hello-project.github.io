@@ -174,7 +174,7 @@ function populateTableEntry(trainee) {
     <div class="table__entry-text">
       <span class="name"><strong>${isJapanese?trainee.name_japanese:trainee.name_romanized}</strong></span>
       <span class="hangul">(${isJapanese?trainee.name_romanized:trainee.name_japanese})</span>
-      <span class="companyandyear">${isJapanese?trainee.group_jpn:trainee.group_eng} •
+      <span class="groupandyear">${isJapanese?trainee.group_jpn:trainee.group_eng} •
       ${trainee.birthyear}</span>
     </div>
   </div>`;
@@ -236,6 +236,7 @@ function populateRankingEntry(trainee, currRank) {
     </div>
     <div class="ranking__row-text">
       <div class="name"><strong>${isJapanese?trainee.name_japanese:trainee.name_romanized}</strong></div>
+      <span class="groupandyear">${isJapanese?trainee.group_jpn:trainee.group_eng}</span>
     </div>
   </div>`;
   return rankingEntry;
