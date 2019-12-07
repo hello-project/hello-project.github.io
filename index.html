@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="google" content="notranslate" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="google-site-verification" content="7p1WafVpQTLkZyuTgblWByOqOKhbZ05coC5oHC3f8b0"/>
+  <meta property="og:title" content="ハロプロ!ランキング"/>
+  <meta property="og:url" content="https://hellopr0ject.github.io/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://hellopr0ject.github.io/assets/thumbnail2.png"/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@ai_var_">
+  <meta name="twitter:title" content="ハロプロ!ランキング">
+  <meta name="twitter:image" content="https://hellopr0ject.github.io/assets/thumbnail2.png">
+
+  <link rel="icon" href="assets/pickme.png">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css?20191123"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Condensed:400,700"
+        rel="stylesheet">
+  <title>ハロプロ!ランキング</title>
+</head>
+<body>
+<div id="top-banner">
+  <a href="/"><img id="banner-image" src="assets/logo.svg"/></a>
+  <p id="banner-title">ハロプロ!ランキング</p>
+  <p id="banner-subtitle">Hello! Project ∙ Ranking</p>
+</div>
+<div class="flex-container padded-box">
+  <div>
+    <div id="tooltip-container">
+      <!-- add tool tip faq stuff here -->
+    </div>
+    <div id="table">
+      <div id="table__filter-container">
+        <input id="table__filter-input" oninput="filterTrainees(event)" type="text" placeholder="Search"/>
+      </div>
+      <div id="table__entry-container">
+      </div>
+    </div>
+    <div id="sharelink-container">
+      <!-- button -->
+      <input type="button" id="getlink-button" value="Get link" onclick="generateShareLink()"/>
+      <!-- text box -->
+      <input type="text" placeholder="http://" id="getlink-textbox" readonly/>
+      <!-- button in text box -->
+      <input type="button" id="copylink-button" value="Copy" onclick="copyLink()"/>
+    </div>
+  </div>
+  <div id="ranking__pyramid">
+    <div id="ranking__title"><strong>ハロプロ!ランキング</strong></div>
+    <div class="ranking__row"></div>
+    <div class="ranking__row"></div>
+    <div class="ranking__row"></div>
+    <div class="ranking__row"></div>
+    <div id="current_date"></div>
+  </div>
+</div>
+<footer>
+  <p>switch to <a href="?lang=en">English</a> | <a href="?lang=ja">日本語</a></p>
+  <p>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+       data-url="https://hellopr0ject.github.io" data-hashtags="hellopro_ranking,helloproject" data-show-count="false">Tweet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </p>
+</footer>
+
+<!-- Load in script files -->
+<script src="scripts/csv.js"></script>
+<script src="scripts/dragula.min.js"></script>
+<script src="scripts/dragdrop.js"></script>
+<script src="scripts/traineesort.js?20191123"></script>
+<script src="scripts/main.js?20191123"></script>
+
+</body>
+</html>
