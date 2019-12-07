@@ -367,7 +367,7 @@ function setLang() {
   }
 }
 
-function setDate() {
+function setDate() \
   var today = new Date();
   var dateString = today.getFullYear()
                    + "/" + zeroPadding(today.getMonth() + 1, 2)
