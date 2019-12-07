@@ -66,6 +66,9 @@ function convertCSVArrayToTraineeData(csvArrays) {
     trainee.rank = traineeArray[4] || 1;
     trainee.eliminated = trainee.rank > currentBorder; // t if eliminated
     trainee.grade = traineeArray[3];
+    trainee.group_jpn = traineeArray[5];
+    trainee.birthyear = traineeArray[6];
+    trainee.group_eng = traineeArray[7]
     // unused
     trainee.top11 = false; // sets trainee to top 11 if 't' appears in 6th column
     return trainee;
@@ -171,7 +174,8 @@ function populateTableEntry(trainee) {
     <div class="table__entry-text">
       <span class="name"><strong>${isJapanese?trainee.name_japanese:trainee.name_romanized}</strong></span>
       <span class="hangul">(${isJapanese?trainee.name_romanized:trainee.name_japanese})</span>
-      <!-- <span class="companyandyear"></span> -->
+      <span class="groupandyear">${isJapanese?trainee.group_jpn:trainee.group_eng} •
+      ${trainee.birthyear}</span>
     </div>
   </div>`;
   return tableEntry;
@@ -341,7 +345,7 @@ function removeRankedTrainee(trainee) {
   return false;
 }
 
-const currentURL = "https://produce101japan.github.io/";
+const currentURL = "https://hello-project.github.io/";
 // Serializes the ranking into a string and appends that to the current URL
 function generateShareLink() {
   let shareCode = ranking.map(function (trainee) {
