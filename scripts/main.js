@@ -236,7 +236,6 @@ function populateRankingEntry(trainee, currRank) {
     </div>
     <div class="ranking__row-text">
       <div class="name"><strong>${isJapanese?trainee.name_japanese:trainee.name_romanized}</strong></div>
-      <span class="groupandyear">${isJapanese?trainee.group_jpn:trainee.group_eng}</span>
     </div>
   </div>`;
   return rankingEntry;
