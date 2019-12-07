@@ -66,9 +66,6 @@ function convertCSVArrayToTraineeData(csvArrays) {
     trainee.rank = traineeArray[4] || 1;
     trainee.eliminated = trainee.rank > currentBorder; // t if eliminated
     trainee.grade = traineeArray[3];
-    trainee.group_jpn = traineeArray[5];
-    trainee.birthyear = traineeArray[6];
-    trainee.group_eng = traineeArray[7]
     // unused
     trainee.top11 = false; // sets trainee to top 11 if 't' appears in 6th column
     return trainee;
@@ -174,8 +171,7 @@ function populateTableEntry(trainee) {
     <div class="table__entry-text">
       <span class="name"><strong>${isJapanese?trainee.name_japanese:trainee.name_romanized}</strong></span>
       <span class="hangul">(${isJapanese?trainee.name_romanized:trainee.name_japanese})</span>
-      <span class="groupandyear">${isJapanese?trainee.group_jpn:trainee.group_eng} •
-      ${trainee.birthyear}</span>
+      <!-- <span class="companyandyear"></span> -->
     </div>
   </div>`;
   return tableEntry;
@@ -217,6 +213,12 @@ function populateRanking() {
       currRank++;
     }
   }
+}
+
+const abbreviatedCompanies = {
+  "RAINBOW BRIDGE WORLD": "RBW",
+  "BLOCKBERRY CREATIVE": "BBC",
+  "INDIVIDUAL TRAINEE": "INDIVIDUAL",
 }
 
 function populateRankingEntry(trainee, currRank) {
@@ -282,6 +284,16 @@ function swapTrainees(index1, index2) {
   rerenderRanking();
 }
 
+// Controls alternate ways to spell trainee names
+// to add new entries use the following format:
+// <original>: [<alternate1>, <alternate2>, <alternate3>, etc...]
+// <original> is the original name as appearing on csv
+// all of it should be lower case
+const alternateRomanizations = {
+  //'heo yunjin': ['heo yoonjin', 'huh yoonjin', 'huh yunjin']
+  'hwang yunseong': ['hwang yunseong', 'hwang yoonseong']
+};
+
 // uses the current filter text to create a subset of trainees with matching info
 function filterTrainees(event) {
   let filterText = event.target.value.toLowerCase();
@@ -329,7 +341,7 @@ function removeRankedTrainee(trainee) {
   return false;
 }
 
-const currentURL = "https://hello-project.github.io/";
+const currentURL = "https://produce101japan.github.io/";
 // Serializes the ranking into a string and appends that to the current URL
 function generateShareLink() {
   let shareCode = ranking.map(function (trainee) {
