@@ -29,9 +29,9 @@
 030_DambaraRuru,Dambara Ruru,段原瑠々,C,30,Juice=Juice,2001,Juice=Juice
 032_KudoYume,Kudo Yume,工藤由愛,C,32,Juice=Juice,2004,Juice=Juice
 033_MatsunagaRiai,Matsunaga Riai,松永里愛,C,33,Juice=Juice,2005,Juice=Juice
-081_kssichika,Arisawa Ichika,有澤一華,G,80,ハロプロ研修生,2003,Hello Pro Kenshuusei 
+081_kssichika,Arisawa Ichika,有澤一華,G,80,Juice=Juice,2003,Juice=Juice 
 jj_Risa,Irie Risa,入江里咲,C,32,Juice=Juice,2005,Juice=Juice
-076_kssebata,Ebata Kisaki,江端妃咲,G,76,ハロプロ研修生,2007,Hello Pro Kenshuusei 
+076_kssebata,Ebata Kisaki,江端妃咲,G,76,Juice=Juice,2007,Juice=Juice
 041_YamagishiRio,Yamagishi Riko,山岸理子,F,41,つばきファクトリー,1998,Tsubaki Factory
 043_NiinumaKisora,Niinuma Kisora,新沼希空,F,43,つばきファクトリー,1999,Tsubaki Factory
 044_TanimotoAmi,Tanimoto Ami,谷本安美,F,44,つばきファクトリー,1999,Tsubaki Factory
@@ -43,7 +43,7 @@ jj_Risa,Irie Risa,入江里咲,C,32,Juice=Juice,2005,Juice=Juice
 tf_KasaiYuumi,Kasai Yuumi,河西結心,F,49,つばきファクトリー,2003,Tsubaki Factory
 tf_Shiori,Yagi Shiori,河西結心,F,49,つばきファクトリー,2003,Tsubaki Factory
 tf_Marin,Fukuda Marin,福田真琳,F,49,つばきファクトリー,2004,Tsubaki Factory
-077_kssyofuu,Yofuu Runo,豫風瑠乃,G,77,ハロプロ研修生,2007,Hello Pro Kenshuusei 
+077_kssyofuu,Yofuu Runo,豫風瑠乃,G,77,つばきファクトリー,2007,Tsubaki Factory
 050_IchiokaReina,Ichioka Reina,一岡伶奈,G,50,BEYOOOOONDS / CHICA#TETSU,1999,BEYOOOOONDS / CHICA#TETSU
 051_ShimakuraRika,Shimakura Rika,島倉りか,G,51,BEYOOOOONDS / CHICA#TETSU,2000,BEYOOOOONDS / CHICA#TETSU
 052_NishidaShiori,Nishida Shiori,西田汐里,G,52,BEYOOOOONDS / CHICA#TETSU,2003,BEYOOOOONDS / CHICA#TETSU
@@ -56,14 +56,14 @@ tf_Marin,Fukuda Marin,福田真琳,F,49,つばきファクトリー,2004,Tsubaki
 059_HiraiMiyo,Hirai Miyo,平井美葉,G,59,BEYOOOOONDS / SeasoningS,1999,BEYOOOOONDS / SeasoningS
 060_KobayashiHonoka,Kobayashi Honoka,小林萌花,G,60,BEYOOOOONDS / SeasoningS,2000,BEYOOOOONDS / SeasoningS 
 061_SatoyoshiUtano,Satoyoshi Utano,里吉うたの,G,61,BEYOOOOONDS / SeasoningS,2000,BEYOOOOONDS / SeasoningS 
-062_kssyonemura,Yonemura Kirara,米村姫良々,G,62,ハロプロ研修生,2004,Hello Pro Kenshuusei 
-066_ksskubota,Kubota Nanami,窪田七海,G,66,ハロプロ研修生,2004,Hello Pro Kenshuusei 
-069_ksssaito,Saito Madoka,斉藤円香,G,69,ハロプロ研修生,2002,Hello Pro Kenshuusei 
-080_ksshishiguri,Ishiguri Kanami,石栗奏美,G,80,ハロプロ研修生,2004,Hello Pro Kenshuusei 
-064_kssnakayama,Nakayama Natsume,中山夏月姫,G,64,ハロプロ研修生,2005,Hello Pro Kenshuusei 
-071_ksshiromoto,Hiromoto Ruri,広本瑠璃,G,71,ハロプロ研修生,2003,Hello Pro Kenshuusei 
-073_kssnishizaki,Nishizaki Miku,西﨑美空,G,73,ハロプロ研修生,2006,Hello Pro Kenshuusei 
-075_ksskitahara,Kitahara Momo,北原もも,G,75,ハロプロ研修生,2006,Hello Pro Kenshuusei 
+062_kssyonemura,Yonemura Kirara,米村姫良々,G,62,新ユニット,2004,New Unit
+066_ksskubota,Kubota Nanami,窪田七海,G,66,新ユニット,2004,New Unit
+069_ksssaito,Saito Madoka,斉藤円香,G,69,新ユニット,2002,New Unit
+080_ksshishiguri,Ishiguri Kanami,石栗奏美,G,80,新ユニット,2004,New Unit 
+064_kssnakayama,Nakayama Natsume,中山夏月姫,G,64,新ユニット,2005,New Unit
+071_ksshiromoto,Hiromoto Ruri,広本瑠璃,G,71,新ユニット,2003,New Unit
+073_kssnishizaki,Nishizaki Miku,西﨑美空,G,73,新ユニット,2006,New Unit
+075_ksskitahara,Kitahara Momo,北原もも,G,75,新ユニット,2006,New Unit
 068_kssmatsubara,Matsubara Yulia,松原ユリヤ,G,68,ハロプロ研修生,2008,Hello Pro Kenshuusei 
 070_kssonoda,Onoda Karin,小野田華凜,G,70,ハロプロ研修生,2008,Hello Pro Kenshuusei 
 072_ksshashida,Hashida Honoka,橋田歩果,G,72,ハロプロ研修生,2005,Hello Pro Kenshuusei 
