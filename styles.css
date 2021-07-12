@@ -262,7 +262,7 @@ body {
   border: 3px solid var(--f-rank);
 }
 .no-rank-border {
-  border: 3px solid var(--d-rank);
+  border: none;
 }
 .eliminated .table__entry-icon-border {
   border: 5px solid var(--no-rank);
