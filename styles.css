@@ -14,13 +14,13 @@
   --checked-blue: #FFB6C1; /* Selected Trainee */
 
   /* ranking border colors */
-  --a-rank: #DB7093; /* Morning Musume */
-  --b-rank: #FFC0CB; /* Angerme */
-  --c-rank: #FFA07A; /* Juice=Juice */
-  --d-rank: #90EE90; /* Country Girls */
-  --e-rank: #DC143C; /* Kobushi Factory */
-  --f-rank: #cdc1f0; /* Tsubaki Factory */
-  --no-rank: #9932CC; /* Beyoooooonds */
+  --a-rank: #e5457d; /* Morning Musume */
+  --b-rank: #ff98b9; /* Angerme */
+  --c-rank: #ffa826; /* Juice=Juice */
+  --d-rank: #787fdd; /* Tsubaki Factory */
+  --e-rank: #c459c3; /* Beyoooooonds */
+  --f-rank: #3dc7c4; /* New Unit */
+  --no-rank: #34d6ad; /* HP Kenshuusei */
 }
 
 p {
@@ -502,22 +502,22 @@ footer p{
 
 /* Different entry borders */
 .a-rank-border {
-  border: 2px solid var(--a-rank);
+  border: 3px solid var(--a-rank);
 }
 .b-rank-border {
-  border: 2px solid var(--b-rank);
+  border: 3px solid var(--b-rank);
 }
 .c-rank-border {
-  border: 2px solid var(--c-rank);
+  border: 3px solid var(--c-rank);
 }
 .d-rank-border {
-  border: 2px solid var(--d-rank);
+  border: 3px solid var(--d-rank);
 }
 .f-rank-border {
-  border: 2px solid var(--f-rank);
+  border: 3px solid var(--f-rank);
 }
 .x-rank-border {
-  border: 2px solid var(--x-rank);
+  border: 3px solid var(--x-rank);
 }
 .no-rank-border {
   border: none;
