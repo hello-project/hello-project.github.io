@@ -244,25 +244,25 @@ body {
 }
 /* Different entry borders */
 .a-rank-border {
-  border: 5px solid var(--a-rank);
+  border: 3px solid var(--a-rank);
 }
 .b-rank-border {
-  border: 5px solid var(--b-rank);
+  border: 3px solid var(--b-rank);
 }
 .c-rank-border {
-  border: 5px solid var(--c-rank);
+  border: 3px solid var(--c-rank);
 }
 .d-rank-border {
-  border: 5px solid var(--d-rank);
+  border: 3px solid var(--d-rank);
+}
+.e-rank-border {
+  border: 3px solid var(--d-rank);
 }
 .f-rank-border {
-  border: 5px solid var(--f-rank);
-}
-.x-rank-border {
-  border: 5px solid var(--x-rank);
+  border: 3px solid var(--f-rank);
 }
 .no-rank-border {
-  border: none;
+  border: 3px solid var(--d-rank);
 }
 .eliminated .table__entry-icon-border {
   border: 5px solid var(--no-rank);
