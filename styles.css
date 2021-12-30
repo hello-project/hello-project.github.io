@@ -47,7 +47,7 @@ body {
   background: radial-gradient(circle, var(--banner-bg-start), var(--banner-bg-end) 80%);
   /* background-color: var(--banner-bg-color); */
   /*  background: url("assets/bg_header.png");*/
-  padding: 10px;
+  padding: 5px;
 
   /* these will be unnecessary once we get the banner image */
   color: white;
@@ -403,7 +403,7 @@ body {
 
 /* Generic Styles */
 .padded-box {
-  padding: 40px;
+  padding: 10px;
 }
 
 .flex-container {
