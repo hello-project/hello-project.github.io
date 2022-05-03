@@ -287,7 +287,7 @@ body {
 /* Ranking Styles */
 #ranking__pyramid {
   /* min-width: 350px; */
-  /*margin: 40px 40px 10px 40px;*/
+  margin: 15px 40px 10px 40px;
   display: flex;
   flex-direction: column;
 }
