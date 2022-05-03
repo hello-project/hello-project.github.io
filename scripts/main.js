@@ -432,5 +432,5 @@ function capture() {
         })
 }
 
-const btn = document.querySelector('#btn')
+const btn = document.querySelector('#capture-btn')
 btn.addEventListener('click', capture)
