@@ -539,8 +539,8 @@ footer p{
 @media screen and (max-width: 360px) {
 /* Ranking Styles */
 #ranking__pyramid {
-  transform: scale(0.6);
-  margin: -85px -108px -70px -108px;
+  transform: scale(0.65);
+  margin: -85px -108px -86px -108px;
 }
 }
 
