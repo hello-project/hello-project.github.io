@@ -137,6 +137,7 @@ body {
   font-weight: 700;
   color: white;
   height: 40px;
+  width: 300px;
 }
 #capture-btn:active { /* these styles are active while get link is being pressed */
   background-color: #064664;
