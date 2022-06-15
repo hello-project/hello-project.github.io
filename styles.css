@@ -143,6 +143,10 @@ body {
   background-color: #064664;
 }
 
+#capture-btn:hover {
+  background-color: #468486;
+}
+
 #copylink-button {
   height: inherit;
   width: 50px;
