@@ -298,6 +298,8 @@ body {
 #ranking__title {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #89b6cb;
 }
 .ranking__row {
   display: flex;
