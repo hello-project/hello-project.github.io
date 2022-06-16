@@ -383,7 +383,7 @@ function setLang() {
 
     document.getElementById("ranking__title").innerText = "ハロプロ! ランキング";
     document.getElementById("capture-btn").innerText = "ダウンロード";
-    document.getElementById("table__filter-input").placeholder = "メンバー名で検索します。";
+    document.getElementById("table__filter-input").placeholder = "メンバーまたはグループ名で検索します。";
   }
 }
 
