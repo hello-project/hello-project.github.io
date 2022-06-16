@@ -376,6 +376,12 @@ function setLang() {
 
   if(isJapanese){
     document.documentElement.lang = "ja";
+    document.getElementById("banner-title").innerText = "ハロプロ! ランキング";
+    document.getElementById("banner-subtitle").innerText = "Hello! Project Ranking";
+
+    document.getElementById("ranking__title").innerText = "ハロプロ! ランキング";
+    document.getElementById("capture-btn").innerText = "ダウンロード";
+    document.getElementById("table__filter-input").placeholder = "メンバー名で検索します。";
   }
 }
 
