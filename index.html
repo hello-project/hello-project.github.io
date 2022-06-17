@@ -44,20 +44,35 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div id="top-banner">
-  <a href="/"><img id="banner-image" src="assets/logo.svg"/></a>
+  <!-- <a href="/"><img id="banner-image" src="assets/logo.svg"/></a> -->
   <p id="banner-title">Hello! Project∙Ranking</p> 
   <p id="banner-subtitle">ハロプロ! ランキング</p>
 </div>
 <div class="flex-container padded-box">
   <div>
-    <div id="sharelink-container">
-        <button id="capture-btn">Save Ranking</button>
-    </div>
     <div id="table">
       <div id="table__filter-container">
         <input id="table__filter-input" oninput="filterTrainees(event)" type="text" placeholder="Search by member or group name"/>
       </div>
       <div id="table__entry-container">
+      </div>
+    </div>
+    <div id="saveranking-container"> <button id="capture-btn">Save Ranking</button> </div>
+    <div id="filters-container">
+      <p id="filters-title">Filter by Group</p>
+      <div id="filter-group">
+        <button id="group1-btn" class="filtergroup-btn" onclick="filterGroup2('Morning Musume')"> Morning Musume</button>
+        <button id="group2-btn" class="filtergroup-btn" onclick="filterGroup2('ANGERME')">Angerme</button>
+        <button id="group3-btn" class="filtergroup-btn" onclick="filterGroup2('Juice=Juice')">Juice=Juice</button>
+      </div>
+      <div class="filter-group">
+        <button id="group4-btn" class="filtergroup-btn" onclick="filterGroup2('Tsubaki Factory')">Tsubaki Factory</button>
+        <button id="group5-btn" class="filtergroup-btn" onclick="filterGroup2('BEYOOOOONDS')">BEYOOOOONDS</button>
+        <button id="group6-btn" class="filtergroup-btn" onclick="filterGroup2('OCHA NORMA')">OCHA NORMA</button>
+      </div>
+      <div class="filter-group">
+        <button id="group7-btn" class="filtergroup-btn" onclick="filterGroup2('Kenshuusei')">Kenshuusei</button>
+        <button id="group8-btn" class="filtergroup-btn" onclick="filterGroup2('')">RESET</button>
       </div>
     </div>
   </div>

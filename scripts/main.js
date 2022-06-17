@@ -380,10 +380,18 @@ function setLang() {
     document.documentElement.lang = "ja";
     document.getElementById("banner-title").innerText = "ハロプロ! ランキング";
     document.getElementById("banner-subtitle").innerText = "Hello! Project Ranking";
-
     document.getElementById("ranking__title").innerText = "ハロプロ! ランキング";
     document.getElementById("capture-btn").innerText = "ダウンロード";
     document.getElementById("table__filter-input").placeholder = "メンバーまたはグループ名で検索";
+
+    //Change group button names
+    document.getElementById("group1-btn").innerText="モーニング娘。";
+    document.getElementById("group2-btn").innerText="アンジュルム";
+    document.getElementById("group3-btn").innerText="ジュースジュース";
+    document.getElementById("group4-btn").innerText="つばきファクトリー";
+    document.getElementById("group5-btn").innerText="BEYOOOOONDS";
+    document.getElementById("group6-btn").innerText="オチャノーマ";
+    document.getElementById("group7-btn").innerText="ハロプロ研修生";
   }
 }
 
@@ -421,7 +429,7 @@ setLang();
 getRanking();
 setDate();
 
-//New test code to save screen captures
+//New code to save screen captures
 function capture() {
     const captureElement = document.querySelector('#ranking__pyramid')
     html2canvas(captureElement)
@@ -442,3 +450,26 @@ function capture() {
 
 const btn = document.querySelector('#capture-btn')
 btn.addEventListener('click', capture)
+
+//New code to filter by group
+// function filterGroup(event) {
+//   let filterText = event.target.value.toLowerCase();
+//   filteredTrainees = trainees.filter(function (trainee) {
+//       let initialMatch = includesIgnCase(trainee.group_eng, filterText);
+//       return initialMatch;
+//     });
+//   filteredTrainees = sortedTrainees(filteredTrainees);
+//   rerenderTable();
+// }
+
+// const group1btn = document.querySelector('#group1-btn')
+// group1btn.addEventListener('click', filterGroup)
+
+function filterGroup2(groupName) {
+  filteredTrainees = trainees.filter(function (trainee) {
+      let initialMatch = includesIgnCase(trainee.group_eng, groupName);
+      return initialMatch;
+    });
+  filteredTrainees = sortedTrainees(filteredTrainees);
+  rerenderTable();
+}

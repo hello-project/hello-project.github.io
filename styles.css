@@ -54,8 +54,7 @@ body {
   text-align: center;
 }
 #banner-image {
-  width: 100px;
-  margin-bottom: 10px;
+  width: 80px;
 }
 #banner-title {
   font-family: 'Roboto Condensed', sans-serif;
@@ -69,8 +68,8 @@ body {
 
 /* Styles for table */
 #table {
-  height: 417px;
-  min-height: 350px;
+  height: 200px;
+  min-height: 290px;
   width: 300px;
   box-shadow: 0px 2px 4px 0.1px var(--produce-gray);
   border-radius: 8px;
@@ -105,38 +104,98 @@ body {
 
 /* Styles for filtering at bottom of table */
 #filters-container {
-  max-width: 800px;
-  margin: auto;
+  margin: 10px;
 }
 
-.filters-container__entry{
-  margin: 5px 10px;
+#filters-title{
+  font-size: small;
+  font-weight: bold;
+}
+#filter-group{
+  margin-top: 5px;
 }
 
-.filters-container__entry.top11{
-  display: none;
+.filtergroup-btn{
+  border-radius: 4px;
+  border: none;
+  margin: 2px;
+  background-color: #8ac7db;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  height: 30px;
+  width: 94px;
 }
 
-.checkbox-label {
-  font-size: 12px;
-  color: var(--affil-gray);
+#group1-btn{
+  background-color: #e5457d;
+}
+#group1-btn:hover {
+  background-color: #468486;
+}
+
+#group2-btn{
+  background-color: #ff98b9;
+}
+#group2-btn:hover {
+  background-color: #468486;
+}
+
+#group3-btn{
+  background-color: #ffa826;
+}
+#group3-btn:hover {
+  background-color: #468486;
+}
+
+#group4-btn{
+  background-color: #787fdd;
+}
+#group4-btn:hover {
+  background-color: #468486;
+}
+
+#group5-btn{
+  background-color: #c459c3;
+}
+#group5-btn:hover {
+  background-color: #468486;
+}
+
+#group6-btn{
+  background-color: #41b06c;
+}
+#group6-btn:hover {
+  background-color: #468486;
+}
+
+#group7-btn{
+  background-color:rgb(238, 229, 94);
+}
+#group7-btn:hover {
+  background-color: #468486;
+}
+
+.filtergroup-btn:hover {
+  background-color: #468486;
 }
 
 /* Styles for share link functionality */
-#sharelink-container {
+#saveranking-container {
   margin: 10px;
   display: flex;
 }
 #capture-btn {
   border: none;
   border-radius: 3px;
-  padding: 4px 6px 4px 6px;
+  padding: 2px 5px 4px 6px;
   background-color: #8ac7db;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: bold;
   color: white;
-  height: 40px;
+  height: 30px;
   width: 300px;
 }
 #capture-btn:active { /* these styles are active while get link is being pressed */
@@ -291,7 +350,7 @@ body {
 /* Ranking Styles */
 #ranking__pyramid {
   /* min-width: 350px; */
-  margin: 15px 40px 10px 40px;
+  margin: 25px 40px 10px 40px;
   display: flex;
   flex-direction: column;
 }
@@ -401,7 +460,7 @@ body {
 
 /* Generic Styles */
 .padded-box {
-  padding: 10px;
+  padding: 7px;
 }
 
 .flex-container {
@@ -433,7 +492,7 @@ footer p{
 
 #current_date{
   margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   margin-right: 30px;
   font-size: 12px;
   text-align: right;
@@ -479,8 +538,8 @@ footer p{
   font-size: 14px;
 }
 
-/* Styles for share link functionality */
-#sharelink-container {
+/* Styles for Save Ranking functionality */
+#saveranking-container {
   margin: 12px;
 }
 #capture-btn {
