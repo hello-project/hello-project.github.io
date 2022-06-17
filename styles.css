@@ -496,6 +496,7 @@ footer p{
   margin-right: 30px;
   font-size: 12px;
   text-align: right;
+  padding: 2px;
 }
 
 @media screen and (max-width: 480px) {
