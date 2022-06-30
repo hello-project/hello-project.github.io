@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/phillipmanthey/Documents/Coding/Hello Ranker/hello-project.github.io'
+python -m SimpleHTTPServer 8000
+make: Leaving directory `/Users/phillipmanthey/Documents/Coding/Hello Ranker/hello-project.github.io'
+ 

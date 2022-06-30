@@ -1,34 +1,36 @@
 001_FukumuraMizuki,Fukumura Mizuki,譜久村聖,a,1,モーニング娘。'22,1996,Morning Musume '22
 002_IkutaErina,Ikuta Erina,生田衣梨奈,a,2,モーニング娘。'22,1997,Morning Musume '22
 003_IshidaAyumi,Ishida Ayumi,石田亜佑美,a,3,モーニング娘。'22,1997,Morning Musume '22
-005_OdaSakura,Oda Sakura,小田さくら,a,5,モーニング娘。'22,1999,Morning Musume '22
-006_NonakaMiki,Nonaka Miki,野中美希,a,6,モーニング娘。'22,1999,Morning Musume '22
-007_MakinoMaria,Makino Maria,牧野真莉愛,a,7,モーニング娘。'22,2001,Morning Musume '22
-008_HagaAkane,Haga Akane,羽賀朱音,a,8,モーニング娘。'22,2002,Morning Musume '22
-009_KagaKaede,Kaga Kaede,加賀楓,a,9,モーニング娘。'22,1999,Morning Musume '22
-010_YokoyamaReina,Yokoyama Reina,横山玲奈,a,10,モーニング娘。'22,2001,Morning Musume '22
-011_MoritoChisaki,Morito Chisaki,森戸知紗希,a,11,モーニング娘。'22,2000,Morning Musume '22
-012_KitagawaRio,Kitagawa Rio,北川莉央,a,12,モーニング娘。'22,2004,Morning Musume '22
-013_OkamuraHomare,Okamura Homare,岡村ほまれ,a,13,モーニング娘。'22,2005,Morning Musume '22
-014_YamazakiMei,Yamazaki Mei,山崎愛生,a,14,モーニング娘。'22,2005,Morning Musume '22
-015_TakeuchiAkari,Takeuchi Akari,竹内朱莉,b,15,アンジュルム,1997,ANGERME
-016_KawamuraAyano,Kawamura Ayano,川村文乃,b,16,アンジュルム,1999,ANGERME
-017_SasakiRikako,Sasaki Rikako,佐々木莉佳子,b,17,アンジュルム,2001,ANGERME
-018_KamikokuryoMoe,Kamikokuryo Moe,上國料萌衣,b,18,アンジュルム,1999,ANGERME
-020_IseLayla,Ise Layla,伊勢鈴蘭,b,20,アンジュルム,2004,ANGERME
-021_HashisakoRin,Hashisako Rin,橋迫鈴,b,21,アンジュルム,2005,ANGERME
-022_KawanaRin,Kawana Rin,川名凜,b,22,アンジュルム,2003,ANGERME
-023_TamenagaShion,Tamenaga Shion,為永幸音,b,23,アンジュルム,2004,ANGERME
-024_MatsumotoWakana,Matsumoto Wakana,松本わかな,b,24,アンジュルム,2007,ANGERME
-070_HirayamaYuki,Hirayama Yuki,平山遊季,b,70,アンジュルム,2006,ANGERME
-026_UemuraAkari,Uemura Akari,植村あかり,c,26,ジュースジュース,1998,Juice=Juice
-029_DambaraRuru,Dambara Ruru,段原瑠々,c,29,ジュースジュース,2001,Juice=Juice
-028_InoueRei,Inoue Rei,井上玲音,c,28,ジュースジュース,2001,Juice=Juice
-030_KudoYume,Kudo Yume,工藤由愛,c,30,ジュースジュース,2004,Juice=Juice
-031_MatsunagaRiai,Matsunaga Riai,松永里愛,c,31,ジュースジュース,2005,Juice=Juice
-032_ArisawaIchika,Arisawa Ichika,有澤一華,c,32,ジュースジュース,2003,Juice=Juice 
-033_IrieRisa,Irie Risa,入江里咲,c,33,ジュースジュース,2005,Juice=Juice
-034_EbataKisaki,Ebata Kisaki,江端妃咲,c,34,ジュースジュース,2007,Juice=Juice
+004_OdaSakura,Oda Sakura,小田さくら,a,5,モーニング娘。'22,1999,Morning Musume '22
+005_NonakaMiki,Nonaka Miki,野中美希,a,6,モーニング娘。'22,1999,Morning Musume '22
+006_MakinoMaria,Makino Maria,牧野真莉愛,a,7,モーニング娘。'22,2001,Morning Musume '22
+007_HagaAkane,Haga Akane,羽賀朱音,a,8,モーニング娘。'22,2002,Morning Musume '22
+008_KagaKaede,Kaga Kaede,加賀楓,a,9,モーニング娘。'22,1999,Morning Musume '22
+009_YokoyamaReina,Yokoyama Reina,横山玲奈,a,10,モーニング娘。'22,2001,Morning Musume '22
+010_KitagawaRio,Kitagawa Rio,北川莉央,a,12,モーニング娘。'22,2004,Morning Musume '22
+011_OkamuraHomare,Okamura Homare,岡村ほまれ,a,13,モーニング娘。'22,2005,Morning Musume '22
+012_YamazakiMei,Yamazaki Mei,山崎愛生,a,14,モーニング娘。'22,2005,Morning Musume '22
+013_SakuraiRio,Sakurai Mio,櫻井梨央,a,14,モーニング娘。'22,2005,Morning Musume '22
+014_TakeuchiAkari,Takeuchi Akari,竹内朱莉,b,15,アンジュルム,1997,ANGERME
+015_KawamuraAyano,Kawamura Ayano,川村文乃,b,16,アンジュルム,1999,ANGERME
+016_SasakiRikako,Sasaki Rikako,佐々木莉佳子,b,17,アンジュルム,2001,ANGERME
+017_KamikokuryoMoe,Kamikokuryo Moe,上國料萌衣,b,18,アンジュルム,1999,ANGERME
+018_IseLayla,Ise Layla,伊勢鈴蘭,b,20,アンジュルム,2004,ANGERME
+019_HashisakoRin,Hashisako Rin,橋迫鈴,b,21,アンジュルム,2005,ANGERME
+020_KawanaRin,Kawana Rin,川名凜,b,22,アンジュルム,2003,ANGERME
+021_TamenagaShion,Tamenaga Shion,為永幸音,b,23,アンジュルム,2004,ANGERME
+022_MatsumotoWakana,Matsumoto Wakana,松本わかな,b,24,アンジュルム,2007,ANGERME
+023_HirayamaYuki,Hirayama Yuki,平山遊季,b,70,アンジュルム,2006,ANGERME
+024_UemuraAkari,Uemura Akari,植村あかり,c,26,ジュースジュース,1998,Juice=Juice
+025_DambaraRuru,Dambara Ruru,段原瑠々,c,29,ジュースジュース,2001,Juice=Juice
+026_InoueRei,Inoue Rei,井上玲音,c,28,ジュースジュース,2001,Juice=Juice
+027_KudoYume,Kudo Yume,工藤由愛,c,30,ジュースジュース,2004,Juice=Juice
+028_MatsunagaRiai,Matsunaga Riai,松永里愛,c,31,ジュースジュース,2005,Juice=Juice
+029_ArisawaIchika,Arisawa Ichika,有澤一華,c,32,ジュースジュース,2003,Juice=Juice 
+030_IrieRisa,Irie Risa,入江里咲,c,33,ジュースジュース,2005,Juice=Juice
+031_EbataKisaki,Ebata Kisaki,江端妃咲,c,34,ジュースジュース,2007,Juice=Juice
+032_IshiyamaSakura,Ishiyama Sakura,石山咲良,c,73,ジュースジュース,2004,Juice=Juice
+033_EndouAkari,Endou Akari,遠藤彩加里,c,73,ジュースジュース,2008,Juice=Juice
 035_YamagishiRiko,Yamagishi Riko,山岸理子,d,35,つばきファクトリー,1998,Tsubaki Factory
 036_NiinumaKisora,Niinuma Kisora,新沼希空,d,36,つばきファクトリー,1999,Tsubaki Factory
 037_TanimotoAmi,Tanimoto Ami,谷本安美,d,37,つばきファクトリー,1999,Tsubaki Factory
@@ -53,22 +55,21 @@
 056_HiraiMiyo,Hirai Miyo,平井美葉,e,56,BEYOOOOONDS / SeasoningS,1999,BEYOOOOONDS / SeasoningS
 057_KobayashiHonoka,Kobayashi Honoka,小林萌花,e,57,BEYOOOOONDS / SeasoningS,2000,BEYOOOOONDS / SeasoningS 
 058_SatoyoshiUtano,Satoyoshi Utano,里吉うたの,e,58,BEYOOOOONDS / SeasoningS,2000,BEYOOOOONDS / SeasoningS 
-061_SaitoMadoka,Saito Madoka,斉藤円香,f,61,オチャノーマ,2002,OCHA NORMA
-064_HiromotoRuri,Hiromoto Ruli,広本瑠璃,f,64,オチャノーマ,2003,OCHA NORMA
+060_SaitoMadoka,Saito Madoka,斉藤円香,f,61,オチャノーマ,2002,OCHA NORMA
+061_HiromotoRuri,Hiromoto Ruli,広本瑠璃,f,64,オチャノーマ,2003,OCHA NORMA
 062_IshiguriKanami,Ishiguri Kanami,石栗奏美,f,62,オチャノーマ,2004,OCHA NORMA
-059_YonemuraKirara,Yonemura Kirara,米村姫良々,f,59,オチャノーマ,2004,OCHA NORMA
-060_KubotaNanami,Kubota Nanami,窪田七海,f,60,オチャノーマ,2004,OCHA NORMA
-074_TashiroSumire,Tashiro Sumire,田代すみれ,f,74,オチャノーマ,2005,OCHA NORMA
-063_NakayamaNatsume,Nakayama Natsume,中山夏月姫,f,63,オチャノーマ,2005,OCHA NORMA
-065_NishizakiMiku,Nishizaki Miku,西﨑美空,f,65,オチャノーマ,2006,OCHA NORMA
-066_KitaharaMomo,Kitahara Momo,北原もも,f,66,オチャノーマ,2006,OCHA NORMA
-075_TsutsuiRoko,Tsutsui Roko,筒井澪心,f,75,オチャノーマ,2007,OCHA NORMA
-067_MatsubaraYulia,Matsubara Yulia,松原ユリヤ,no,67,ハロプロ研修生,2008,Hello Pro Kenshuusei 
-068_OnodaKarin,Onoda Karin,小野田華凜,no,68,ハロプロ研修生,2008,Hello Pro Kenshuusei 
-069_HashidaHonoka,Hashida Honoka,橋田歩果,no,69,ハロプロ研修生,2005,Hello Pro Kenshuusei 
-071_MurakoshiAyana,Murakoshi Ayana,村越彩菜,no,71,ハロプロ研修生,2008,Hello Pro Kenshuusei 
-072_UemuraHasumi,Uemura Hasumi,植村葉純,no,72,ハロプロ研修生,2008,Hello Pro Kenshuusei 
-073_IshiyamaSakura,Ishiyama Sakura,石山咲良,no,73,ハロプロ研修生,2004,Hello Pro Kenshuusei
-076_Yoshida,Yoshida Hinoha,吉田姫杷,no,76,ハロプロ研修生,2007,Hello Pro Kenshuusei
-077_Mifu,Kawashima Mifu,川嶋美楓,no,77,ハロプロ研修生,2004,Hello Pro Kenshuusei
-078_Goto,Goto Hana,後藤花,no,77,ハロプロ研修生,2008,Hello Pro Kenshuusei
+063_YonemuraKirara,Yonemura Kirara,米村姫良々,f,59,オチャノーマ,2004,OCHA NORMA
+064_KubotaNanami,Kubota Nanami,窪田七海,f,60,オチャノーマ,2004,OCHA NORMA
+065_TashiroSumire,Tashiro Sumire,田代すみれ,f,74,オチャノーマ,2005,OCHA NORMA
+066_NakayamaNatsume,Nakayama Natsume,中山夏月姫,f,63,オチャノーマ,2005,OCHA NORMA
+067_NishizakiMiku,Nishizaki Miku,西﨑美空,f,65,オチャノーマ,2006,OCHA NORMA
+068_KitaharaMomo,Kitahara Momo,北原もも,f,66,オチャノーマ,2006,OCHA NORMA
+069_TsutsuiRoko,Tsutsui Roko,筒井澪心,f,75,オチャノーマ,2007,OCHA NORMA
+070_MatsubaraYulia,Matsubara Yulia,松原ユリヤ,no,67,ハロプロ研修生,2008,Hello Pro Kenshuusei 
+071_OnodaKarin,Onoda Karin,小野田華凜,no,68,ハロプロ研修生,2008,Hello Pro Kenshuusei 
+072_HashidaHonoka,Hashida Honoka,橋田歩果,no,69,ハロプロ研修生,2005,Hello Pro Kenshuusei 
+073_MurakoshiAyana,Murakoshi Ayana,村越彩菜,no,71,ハロプロ研修生,2008,Hello Pro Kenshuusei 
+074_UemuraHasumi,Uemura Hasumi,植村葉純,no,72,ハロプロ研修生,2008,Hello Pro Kenshuusei 
+075_Yoshida,Yoshida Hinoha,吉田姫杷,no,76,ハロプロ研修生,2007,Hello Pro Kenshuusei
+076_Mifu,Kawashima Mifu,川嶋美楓,no,77,ハロプロ研修生,2004,Hello Pro Kenshuusei
+077_Goto,Goto Hana,後藤花,no,77,ハロプロ研修生,2008,Hello Pro Kenshuusei

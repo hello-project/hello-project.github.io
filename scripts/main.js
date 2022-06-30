@@ -93,7 +93,7 @@ function newTrainee() {
 // Constructor for a blank ranking list
 function newRanking() {
   // holds the ordered list of rankings that the user selects
-  let ranking = new Array(11);
+  let ranking = new Array(13);
   for (let i = 0; i < ranking.length; i++) {
     ranking[i] = newTrainee();
   }
@@ -417,7 +417,7 @@ var trainees = [];
 var filteredTrainees = [];
 // holds the ordered list of rankings that the user selects
 var ranking = newRanking();
-const rowNums = [1, 2, 3, 5];
+var rowNums = [1, 2, 3, 5];
 // holds true if using japanese
 var isJapanese = false;
 setLang();
@@ -472,4 +472,22 @@ function filterGroup2(groupName) {
     });
   filteredTrainees = sortedTrainees(filteredTrainees);
   rerenderTable();
+  if(groupName == 'Morning Musume') {
+    rowNums = [1, 3, 4, 5];
+  } else if(groupName == 'ANGERME') {
+    rowNums = [1, 2, 3, 4];   
+  } else if(groupName == 'Juice=Juice') {
+    rowNums = [1, 2, 3, 4];     
+  } else if(groupName == 'Tsubaki Factory') {
+    rowNums = [1, 2, 4, 5];    
+  } else if(groupName == 'BEYOOOOONDS') {
+    rowNums = [1, 2, 4, 5];    
+  } else if(groupName == 'OCHA NORMA') {
+    rowNums = [1, 2, 3, 4];   
+  } else if(groupName == 'Kenshuusei') {
+    rowNums = [1, 2, 3, 5];   
+  }else {
+    window.location.reload();
+  }
+  rerenderRanking();
 }
