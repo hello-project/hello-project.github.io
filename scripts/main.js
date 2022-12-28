@@ -473,7 +473,7 @@ function filterGroup2(groupName) {
   filteredTrainees = sortedTrainees(filteredTrainees);
   rerenderTable();
   if(groupName == 'Morning Musume') {
-    rowNums = [1, 3, 4, 5];
+    rowNums = [1, 3, 4, 4];
   } else if(groupName == 'ANGERME') {
     rowNums = [1, 2, 3, 4];   
   } else if(groupName == 'Juice=Juice') {
