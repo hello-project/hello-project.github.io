@@ -475,7 +475,7 @@ function filterGroup2(groupName) {
   if(groupName == 'Morning Musume') {
     rowNums = [1,2,4,6];
   } else if(groupName == 'ANGERME') {
-    rowNums = [1, 2, 4, 4;
+    rowNums = [1, 2, 4, 4];
   } else if(groupName == 'Juice=Juice') {
     rowNums = [1, 2, 3, 5];
   } else if(groupName == 'Tsubaki Factory') {
