@@ -93,7 +93,7 @@ function newTrainee() {
 // Constructor for a blank ranking list
 function newRanking() {
   // holds the ordered list of rankings that the user selects
-  let ranking = new Array(13);
+  let ranking = new Array(14);
   for (let i = 0; i < ranking.length; i++) {
     ranking[i] = newTrainee();
   }
@@ -473,9 +473,9 @@ function filterGroup2(groupName) {
   filteredTrainees = sortedTrainees(filteredTrainees);
   rerenderTable();
   if(groupName == 'Morning Musume') {
-    rowNums = [1,2,4,6];
+    rowNums = [1,3,4,6];
   } else if(groupName == 'ANGERME') {
-    rowNums = [1, 2, 4, 4];
+    rowNums = [1, 2, 3, 5];
   } else if(groupName == 'Juice=Juice') {
     rowNums = [1, 2, 3, 5];
   } else if(groupName == 'Tsubaki Factory') {
