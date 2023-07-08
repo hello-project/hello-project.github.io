@@ -485,7 +485,7 @@ function filterGroup2(groupName) {
   } else if(groupName == 'OCHA NORMA') {
     rowNums = [1, 2, 3, 4];   
   } else if(groupName == 'Kenshuusei') {
-    rowNums = [1, 2, 3, 5];   
+    rowNums = [1, 2, 3, 4];
   }else {
     window.location.reload();
   }
