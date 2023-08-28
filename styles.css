@@ -619,7 +619,7 @@ footer p{
 #ranking__pyramid {
   transform: scale(0.65);
   margin: -85px -108px -86px -108px;
-  max-width: 300px;
+  max-width: 350px;
 }
 }
 
@@ -628,6 +628,6 @@ footer p{
 #ranking__pyramid {
   transform: scale(0.50);
   margin: -95px -121px -90px -121px;
-  max-width: 300px;
+  max-width: 350px;
 }
 }
