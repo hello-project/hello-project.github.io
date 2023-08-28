@@ -128,6 +128,11 @@ body {
   width: 94px;
 }
 
+.filtergroup-btn.disabled{
+  background-color: grey;
+  cursor: not-allowed;
+}
+
 #group1-btn{
   background-color: #e5457d;
 }
@@ -352,6 +357,7 @@ body {
   /* min-width: 350px; */
   margin: 25px 40px 10px 40px;
   display: flex;
+  /*min-width: 350px;*/
   flex-direction: column;
 }
 #ranking__title {
@@ -594,6 +600,11 @@ footer p{
 #ranking__pyramid {
   transform: scale(0.65);
   margin: -75px -95px -70px -95px;
+  min-height: 300px;
+}
+
+#ranking__pyramid.disabled {
+  height: 300px;
 }
 
 /* Generic Styles */
@@ -603,18 +614,20 @@ footer p{
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 420px) {
 /* Ranking Styles */
 #ranking__pyramid {
   transform: scale(0.65);
   margin: -85px -108px -86px -108px;
+  max-width: 300px;
 }
 }
 
 @media screen and (max-width: 320px) {
 /* Ranking Styles */
 #ranking__pyramid {
-  transform: scale(0.55);
+  transform: scale(0.50);
   margin: -95px -121px -90px -121px;
+  max-width: 300px;
 }
 }

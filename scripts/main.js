@@ -65,7 +65,6 @@ function convertCSVArrayToTraineeData(csvArrays) {
     trainee.name_japanese = traineeArray[2];
     trainee.rank = traineeArray[4] || 1;
     trainee.eliminated = trainee.rank > currentBorder; // t if eliminated
-    trainee.grade = traineeArray[3];
     trainee.group_jpn = traineeArray[5];
     trainee.birthyear = traineeArray[6];
     trainee.group_eng = traineeArray[7]
@@ -490,4 +489,33 @@ function filterGroup2(groupName) {
     window.location.reload();
   }
   rerenderRanking();
+}
+
+function groupRanking() {
+  filteredTrainees = trainees.filter(function (trainee) {
+      let initialMatch = includesIgnCase(trainee.group_eng, "HELLO! PROJECT");
+      return initialMatch;
+    });
+  filteredTrainees = sortedTrainees(filteredTrainees);
+
+
+
+  const buttons = document.querySelectorAll('[class="filtergroup-btn"]');
+  buttons.forEach(button => {
+      button.disabled = true;
+      button.classList.add('disabled');
+  });
+
+  const resetBtn = document.getElementById("group8-btn");
+  resetBtn.disabled = false;
+  resetBtn.classList.remove('disabled');
+
+  let ranking_chart = document.getElementById("ranking__pyramid");
+  let lastRow = document.getElementById("lastRow")
+  ranking_chart.removeChild(lastRow);
+  ranking_chart.classList.add('disabled');
+  rowNums = [1, 2, 4]; // Update the rowNums array with the desired values
+  rerenderTable();
+  rerenderRanking();
+
 }

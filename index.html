@@ -74,6 +74,7 @@
       </div>
       <div class="filter-group">
         <button id="group7-btn" class="filtergroup-btn" onclick="filterGroup2('Kenshuusei')">Kenshuusei</button>
+        <button id="group9-btn" class="filtergroup-btn" onclick="groupRanking()">GROUPS</button>
         <button id="group8-btn" class="filtergroup-btn" onclick="filterGroup2('')">RESET</button>
       </div>
     </div>
@@ -83,7 +84,7 @@
     <div class="ranking__row" id="rank1"></div>
     <div class="ranking__row"></div>
     <div class="ranking__row"></div>
-    <div class="ranking__row"></div>
+    <div class="ranking__row" id="lastRow"></div>
     <div id="current_date"></div>
   </div>
 </div>
@@ -99,7 +100,7 @@
 
 </footer>
 
-<!-- Load in script files -->
+<!-- Load in script files  -->
 <script src="scripts/csv.js"></script>
 <script src="scripts/dragula.min.js"></script>
 <script src="scripts/dragdrop.js"></script>
