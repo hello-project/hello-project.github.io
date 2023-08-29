@@ -65,6 +65,7 @@ function convertCSVArrayToTraineeData(csvArrays) {
     trainee.name_japanese = traineeArray[2];
     trainee.rank = traineeArray[4] || 1;
     trainee.eliminated = trainee.rank > currentBorder; // t if eliminated
+    trainee.grade = traineeArray[3];
     trainee.group_jpn = traineeArray[5];
     trainee.birthyear = traineeArray[6];
     trainee.group_eng = traineeArray[7]
@@ -512,8 +513,11 @@ function groupRanking() {
 
   let ranking_chart = document.getElementById("ranking__pyramid");
   let lastRow = document.getElementById("lastRow")
-  ranking_chart.removeChild(lastRow);
-  ranking_chart.classList.add('disabled');
+//  ranking_chart.removeChild(lastRow);
+  if (lastRow) {
+    lastRow.style.display = "none";
+  }
+
   rowNums = [1, 2, 4]; // Update the rowNums array with the desired values
   rerenderTable();
   rerenderRanking();

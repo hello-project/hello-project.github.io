@@ -365,6 +365,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: #89b6cb;
+  margin: 15px;
 }
 .ranking__row {
   display: flex;
@@ -498,8 +499,8 @@ footer p{
 
 #current_date{
   margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 30px;
+  margin-bottom: 20px;
+  /*margin-right: 30px;*/
   font-size: 12px;
   text-align: right;
   padding: 10px;
@@ -600,11 +601,7 @@ footer p{
 #ranking__pyramid {
   transform: scale(0.65);
   margin: -75px -95px -70px -95px;
-  min-height: 300px;
-}
-
-#ranking__pyramid.disabled {
-  height: 300px;
+  min-width: 300px;
 }
 
 /* Generic Styles */
@@ -619,6 +616,7 @@ footer p{
 #ranking__pyramid {
   transform: scale(0.65);
   margin: -85px -108px -86px -108px;
+  min-width: 620px;
   max-width: 350px;
 }
 }
@@ -628,6 +626,7 @@ footer p{
 #ranking__pyramid {
   transform: scale(0.50);
   margin: -95px -121px -90px -121px;
+  min-width: 350px;
   max-width: 350px;
 }
 }
