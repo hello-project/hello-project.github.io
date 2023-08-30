@@ -614,19 +614,25 @@ footer p{
 @media screen and (max-width: 420px) {
 /* Ranking Styles */
 #ranking__pyramid {
-  transform: scale(0.65);
+  transform: scale(0.55);
   margin: -85px -108px -86px -108px;
   min-width: 620px;
   max-width: 350px;
+
 }
+#capture-btn { align-content: center; }
+#table {  transform: scale(0.95);}
 }
 
 @media screen and (max-width: 320px) {
 /* Ranking Styles */
 #ranking__pyramid {
-  transform: scale(0.50);
+  transform: scale(0.55);
   margin: -95px -121px -90px -121px;
   min-width: 350px;
   max-width: 350px;
+  align-content: center;
 }
+#capture-btn { align-content: center; }
+#table {  transform: scale(0.95);}
 }
