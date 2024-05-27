@@ -481,7 +481,7 @@ function filterGroup2(groupName) {
   } else if(groupName == 'Tsubaki Factory') {
     rowNums = [1, 2, 2, 4];
   } else if(groupName == 'BEYOOOOONDS') {
-    rowNums = [1, 2, 4, 5];    
+    rowNums = [1, 2, 3, 5];
   } else if(groupName == 'OCHA NORMA') {
     rowNums = [1, 2, 3, 4];   
   } else if(groupName == 'Kenshuusei') {
